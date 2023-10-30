@@ -14,11 +14,30 @@ header{
     margin:0px;
 }
 
+.logo_box{
+    width:120px;
+    height:60px;
+    margin:0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .logo{
     width:60px;
     height:60px;
     margin:0px;
 }
+
+.logoname{
+    margin:0px;
+    color:#000000;
+    font-family:'Agbalumo',sans-serif;
+    font-size:30px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
 .nav{
     width:660px;
     height:60px;
@@ -50,15 +69,43 @@ header{
     justify-content: space-around;
     padding:0px 10px 0px 66px;
 }
+
 .button_items{
     border:1px solid #000000;
     border-radius: 3px;
     padding:5px 8px;
 }
 
+.button_items:hover{
+    border:1px solid #000000;
+    border-radius: 3px;
+    padding:5px 8px;
+    background-color: #F5EEE1;
+}
+
+.nav_a{
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 a{
     text-decoration: none;
     color:#000000;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav_a:hover{
+    text-decoration: none;
+    color:brown;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
     font-style: normal;
