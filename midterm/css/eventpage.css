@@ -30,6 +30,7 @@ header{
 }
 
 .logoname{
+    text-decoration: none;
     margin:0px;
     color:#000000;
     font-family:'Agbalumo',sans-serif;
