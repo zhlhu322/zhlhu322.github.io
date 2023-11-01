@@ -136,7 +136,7 @@ body
     line-height: normal;
     margin: 0;
     margin-left:10px;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 .join_right_container
@@ -163,7 +163,7 @@ body
 .join_text_03
 {
     width: 188px;
-    height: 32px;
+    height: 36px;
     flex-shrink: 0;
     background: #D5C19B;
     display: flex;
@@ -172,7 +172,7 @@ body
     justify-content: center;
     color: #FFFFFF;
     font-family: 'Noto Sans',sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

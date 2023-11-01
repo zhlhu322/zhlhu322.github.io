@@ -283,7 +283,7 @@ a{
 .event_detail_text{
     width:1128px;
     color: #000000;
-    font-family: Noto Sans;
+    font-family: 'Noto Sans',sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
