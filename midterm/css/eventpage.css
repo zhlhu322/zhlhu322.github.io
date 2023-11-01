@@ -105,7 +105,7 @@ a{
 
 .nav_a:hover{
     text-decoration: none;
-    color:brown;
+    color:#B86049;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -180,6 +180,32 @@ a{
     text-justify: center;
 }
 
+.event_info_outlink{
+    height:40px;
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; 
+    margin:0px;
+    text-justify: center;
+}
+
+.event_info_outlink:hover{
+    height:40px;
+    text-decoration: none;
+    color:#B86049;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; 
+    margin:0px;
+    text-justify: center;
+}
+
 .event_rightbox{
     width:415px;
     height:170px;
@@ -210,6 +236,16 @@ a{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.signup_a:hover{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal; 
 }
 
 .signup_icongroup{
