@@ -193,3 +193,16 @@ footer{
     line-height: normal;
     color:#FFFFFF;
 }
+
+.homepage-fade {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F1E2C5;
+    transition: 1s;
+}
+
+.hompage-fade-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
