@@ -1,12 +1,16 @@
 body{
     background-color:white;
-    width:1280px;
+    width:100vw;
     height:auto;
     margin:0px auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
 header{
     background-color:#F1E2C5;
-    width:1280px;
+    width:100%;
     height:60px;
     display:flex;
     flex-direction: row;
@@ -15,18 +19,12 @@ header{
 }
 
 .logo_box{
-    width:120px;
+    width:auto;
     height:60px;
-    margin:0px;
+    margin:0px 0px 0px 40px;
     display:flex;
     flex-direction: row;
     align-items: center;
-}
-
-.logo{
-    width:60px;
-    height:60px;
-    margin:0px;
 }
 
 .logoname{
@@ -36,7 +34,6 @@ header{
     font-family:'Agbalumo',sans-serif;
     font-size:30px;
     font-weight: 400;
-    margin-left: 10px;
 }
 
 .nav{
@@ -68,7 +65,7 @@ header{
     display:flex;
     align-items: center;
     justify-content: space-around;
-    padding:0px 10px 0px 66px;
+    padding:0px 40px 0px 40px;
 }
 
 .button_items{
@@ -82,6 +79,7 @@ header{
     border-radius: 3px;
     padding:5px 8px;
     background-color: #F5EEE1;
+    transition:background-color 0.25s ease-in-out;
 }
 
 .nav_a{
@@ -112,12 +110,18 @@ a{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    transition:color 0.25s ease-in-out;
 }
 
-.banner{
-    width:1280;
-    height: 438px;
-    margin:0px auto; 
+article{
+    width:100vw;
+    height:auto;
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .event_title{
@@ -127,27 +131,29 @@ a{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin:20px auto;
+    margin-bottom: 30px;
     text-align:center;
 }
 
 .event{
-    width:1280px;
-    height:245px;
-    margin:0px auto;
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
-}
-
-.event_leftbox{
-    width:710px;
-    height: 230px;
+    width:70%;
+    height:230px;
     display: flex;
     flex-direction:row;
     align-items: center;
-    background-color:#F5EEE1;
-    padding:0px 60px;
+    justify-content: space-around;
+    background-color:#E1EAF2;
+    margin-bottom: 40px;
+    border:1px solid #E1EAF2;
+    border-radius: 5px;
+}
+
+.list_container{
+    width:90%;
+    height:100%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
 }
 
 .icon_list{
@@ -155,12 +161,20 @@ a{
     display:flex;
     flex-direction:column;
     margin-right:25px;
+    margin-left:40px;
 }
 
 .icon{
     width:40px;
     height:40px;
 }
+
+.like_button{
+    width:60px;
+    height:60px;
+    margin-right:60px;
+}
+
 
 .event_info_list{
     height:160px;
@@ -197,7 +211,7 @@ a{
 .event_info_outlink:hover{
     height:40px;
     text-decoration: none;
-    color:#B86049;
+    color:#766B57;
     font-family: 'Noto Sans',sans-serif;
     font-size: 24px;
     font-style: normal;
@@ -205,68 +219,16 @@ a{
     line-height: 40px; 
     margin:0px;
     text-justify: center;
-}
-
-.event_rightbox{
-    width:415px;
-    height:170px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    background-color:#F5EEE1;
-}
-
-.signup_box{
-    width:208px;
-    height:64px;
-    background-color: #D5C19B;
-    margin:0px auto;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 33px;
-    margin-bottom: 13px;
-}
-
-.signup_a{
-    text-decoration: none;
-    color:#FFFFFF;
-    font-family: 'Noto Sans',sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.signup_a:hover{
-    text-decoration: none;
-    color:#FFFFFF;
-    font-family: 'Noto Sans',sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal; 
-}
-
-.signup_icongroup{
-    width:208px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.icon{
-    width:40px;
-    height:40px;
+    transition:color 0.25s ease-in-out;
 }
 
 .event_detail{
-   width:1280px;
-   height:500px;
-   background-color:#F1E2C5;
-   margin:0px auto; 
-    margin-bottom: 170px;
+    width:70%;
+    height:auto;
+    margin:0px auto; 
+    margin-bottom:200px;
+    border:1px solid #766B57;
+    border-radius: 5px;
 }
 
 .event_detail_topic{
@@ -276,12 +238,15 @@ a{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin:0px 0px 18px 67px;
-    padding-top:25px;
+    margin:25px 0px 18px 67px;
+}
+
+.hr{
+    color:#766B57;
 }
 
 .event_detail_text{
-    width:1128px;
+    width:90%;
     color: #000000;
     font-family: 'Noto Sans',sans-serif;
     font-size: 22px;
@@ -292,12 +257,14 @@ a{
 }
 
 footer{
-    width:1280px;
+    width:100vw;
     height:60px;
-    position:absolute;
     background-color: #D5C19B;
     text-align:center;
-
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer_p{
@@ -308,6 +275,3 @@ footer{
     line-height: normal;
     color:#FFFFFF;
 }
-
-
-

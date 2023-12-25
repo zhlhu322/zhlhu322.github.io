@@ -1,0 +1,257 @@
+body{
+    background-color:#F1E2C5;
+    width:100vw;
+    height:auto;
+    margin:0px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+    background-color:#F1E2C5;
+    width:100%;
+    height:60px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0px;
+}
+
+.logo_box{
+    width:120px;
+    height:60px;
+    margin:0px 0px 0px 40px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoname{
+    text-decoration: none;
+    margin:0px;
+    color:#000000;
+    font-family:'Agbalumo',sans-serif;
+    font-size:30px;
+    font-weight: 400;
+}
+
+.nav{
+    width:660px;
+    height:60px;
+    display:flex;
+    flex-direction: row-end;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_items{
+    width:365px;
+    height:60px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.v-line{
+    border-left: 2px solid #000000;
+    height:18px;
+    left: 50%;
+}
+
+.button{
+    width:200px;
+    height:60px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:0px 40px 0px 40px;
+}
+
+.button_items{
+    border:1px solid #000000;
+    border-radius: 3px;
+    padding:5px 8px;
+}
+
+.button_items:hover{
+    border:1px solid #000000;
+    border-radius: 3px;
+    padding:5px 8px;
+    background-color: #F5EEE1;
+}
+
+.nav_a{
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a{
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.nav_a:hover{
+    text-decoration: none;
+    color:brown;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+article{
+    background-color: white;
+    width:100%;
+    height:100vh;
+    padding-top:100px;
+}  
+
+.cardarea{
+    width:1000px;
+    height:100%;
+    margin:0px auto;
+    display:grid;
+    grid-template-columns: 480px 480px;
+    grid-template-rows: 500px 500px;
+    grid-gap:40px;
+}
+
+/*把card1_container設成基準元素*/
+.card_container{
+    width:480px;
+    height:500px;
+    position:relative; 
+    border:1px solid #000000;
+    border-radius:5px;
+    margin:0px;
+    perspective: 1000px;
+}
+
+
+.card_f,.card_b{
+    width:100%;
+    height:100%;
+    position:absolute;
+    backface-visibility: hidden;
+    transition:transform 1s ease-in-out;
+}
+
+.card_f{
+    background-color: #F6E1CE;
+    transform:rotatey(0deg);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_container:hover .card_f{
+    transform:rotatey(180deg);
+}
+
+.card_f > img{
+    width:400px;
+    height:250px;
+}
+
+.cardinfo{
+    text-align: center;
+}
+
+.cardinfo > h1{
+    font-family:'Nunito Sans',sans-serif;
+    color:#000000;
+    font-size:25px;
+    margin:20px auto;
+}
+
+.card_f > p{
+    font-family:'Nunito Sans',sans-serif;
+    font-weight:400;
+    margin:0px;
+    color:#000000;
+    font-size:18px;
+}
+
+.card_b{
+    background-color: #F2D6BC;
+    transform:rotatey(-180deg);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Nunito Sans',sans-serif;
+    font-weight:400;
+}
+
+.card_container:hover .card_b{
+    transform:rotatey(0deg);
+}
+
+.card_b > h1{
+    font-family:'Nunito Sans',sans-serif;
+    color:#000000;
+    font-size:25px;
+    margin:20px auto 20px auto;
+    text-align: center;
+}
+
+.card_b > p{
+    font-family:'Nunito Sans',sans-serif;
+    font-weight:400;
+    margin:0px;
+    color:#000000;
+    font-size:16px;
+}
+
+.cardinfo > a{
+    text-decoration: none;
+    font-family:'Nunito Sans',sans-serif;
+    font-weight:400;
+    margin:0px;
+    color:#000000;
+    font-size:16px;
+}
+
+.cardinfo > a:hover{
+    text-decoration:underline;
+    font-family:'Nunito Sans',sans-serif;
+    font-weight:700;
+    margin:0px;
+    color:#000000;
+    font-size:16px;
+}
+
+footer{
+    width:auto;
+    height:60px;
+    background-color: #D5C19B;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_p{
+    font-family:'Nunito Sans',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    color:#FFFFFF;
+}
