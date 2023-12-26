@@ -202,13 +202,13 @@ article{
 }
 
 .article_content{
-    width:70vw;
-    margin:0px auto 30px auto;
+    width:70%;
+    height:80%;
+    margin:0px auto 60px auto;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .a_img{
@@ -252,7 +252,6 @@ article{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .box1_p{
