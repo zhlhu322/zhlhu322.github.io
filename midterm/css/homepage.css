@@ -19,7 +19,7 @@ header{
 }
 
 .logo_box{
-    width:auto;
+    width:20%;
     height:60px;
     margin:0px 0px 0px 40px;
     display:flex;
@@ -41,16 +41,18 @@ header{
     height:60px;
     display:flex;
     flex-direction: row-end;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .nav_items{
-    width:365px;
+    /* width:365px; */
+    width:50%;
     height:60px;
     display:flex;
     justify-content: space-around;
     align-items: center;
+    padding-left: 10px;
 }
 
 .v-line{
@@ -60,12 +62,13 @@ header{
 }
 
 .button{
-    width:200px;
+    /* width:200px; */
+    width:30%;
     height:60px;
     display:flex;
     align-items: center;
     justify-content: space-around;
-    padding:0px 40px 0px 40px;
+    padding:0px 40px 0px 15px;
 }
 
 .button_items{
@@ -171,11 +174,12 @@ a{
 }
 
 .banner{
-    width:90%;
+    width:90vw;
     height:auto;
 }
 
 .banner_bg{
+    margin:0 auto;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -202,9 +206,9 @@ article{
 }
 
 .article_content{
-    width:70%;
+    width:70vw;
     height:80%;
-    margin:0px auto 60px auto;
+    margin:60px auto;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
@@ -300,40 +304,6 @@ article{
     transition: border 0.75s ease-in-out;
 }
 
-/* footer{
-    width:100vw;
-    height:60px;
-    background-color: #D5C19B;
-    text-align:center;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer_p{
-    font-family:'Nunito Sans',sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: normal;
-    color:#FFFFFF;
-}
-
-.homepage-fade {
-    position: fixed;
-    width: 100vw;
-    height: 200vh;
-    background-color:#F5EEE1;
-    transition: 1.5s;
-}
-
-.hompage-fade-hidden {
-    opacity: 0;
-    visibility: hidden;
-} */
-
-
 footer{
     width:100vw;
     height:auto;
@@ -393,6 +363,25 @@ footer{
 }
 
 @media screen and(min-width:768px){
+
+    .logo_box{
+        width:auto;
+        height:60px;
+        margin:0px 0px 0px 15px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .button{
+        /* width:200px; */
+        width:30%;
+        height:60px;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        padding:0px 15px 0px 10px;
+    }
 
     .article_p{
         font-family:'Agbalumo',sans-serif;
