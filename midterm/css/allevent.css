@@ -111,6 +111,7 @@ a{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    transition:color 0.25s ease-in-out;
 }
 
 
