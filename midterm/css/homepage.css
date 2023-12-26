@@ -149,14 +149,14 @@ a{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 150px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    opacity:0;
+
 }
 
 .dropdown-content a {
-    color: black;
+    color: #766B57;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -170,7 +170,6 @@ a{
   
 .dropdown:hover .dropdown-content {
     display: block;
-    opacity:1;
 }
 
 .banner{
