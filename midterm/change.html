@@ -3,24 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aboutus page</title>
+    <title>Change password</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Noto+Sans+TC:wght@300;400&family=Nunito+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/aboutus.css">
+    <link rel="stylesheet" href="css/change.css">
 </head>
 <body>
-  
     <header>
         <div class="logo_box">
             <a class="logoname" href="homepage.html">JOINWHERE</a>
         </div>
-
         <nav class="nav">
             <div class="nav_items">
                 <a class="nav_a" href="about.html">About</a>
                 <div class="v-line"></div>
-
+                
                 <div class="dropdown">
                     <a class="nav_b" href="allevent.html">Event</a>
                     <div class="dropdown-content">
@@ -42,42 +41,38 @@
                 <a href="login.html" class="button_items">Sign up</a>
             </div>
         </nav>
-    </header> 
+    </header>
     <article>
-        
-        <div class="banner">
-            <img class="img" src="aboutus.img/image 21.png"  alt="">
-            <span class="about_first" >
-                JOINWHERE是一個活動整合平台<br> 這裡整合信箱活動郵件，提供使用者最完整的活動資源
-            </span>
-        </div>
-
-        <div class="about_bodybox">
-            <div class="about_box01">
-                <img class="imgbox" src="aboutus.img/image 18.png" alt="">
-                <div class="about_textbox">
-                    <p class="about_text">你有這樣的經驗嗎?</p>
-                    <p class="about_text">信箱郵件繁雜，每當我對某一活動有<br>興趣時，要先點開郵件、點開詳細資<br>訊、搜尋活動頁面、點開報名頁面，<br>最後才能報名。</p>
-                    <p class="about_text">步驟繁雜 操作不易!</p>
+        <div class="mine_container">
+            <p class="mine_title">Hello，王曉明</p>
+            <div class="mine_bodybox">
+            
+                <div class="mine_textbox">
+                    <div class="mine_textbox02">
+                        <a href="mine.html" class="mine_maintext">Account</a>
+                        <a href="favorite.html" class="mine_maintext">Favorite events</a>
+                        <a href="change.html" class="mine_account">Change password</a>
+                        <a href="homepage.html" class="mine_maintext">Log out</a>
+                    </div>
+                    
                 </div>
-                
-            </div>
-            <div class="about_box01">
-                
-
-                <div class="about_textbox">
-                    <p class="about_text">我們是來自國立台北教育大學的兩個<br>大學生，努力以自身經驗打造一個簡<br>潔、美觀，並給予使用者完善使用體<br>驗的網頁平台。</p>
-                    <p class="about_text">我們希望這個網頁平台能提供使用者<br>完善活動資源，並提升活動參與率，<br>促進社會發展。</p>
-                </div>
-                <img class="imgbox" src="aboutus.img/image 22.png" alt="">
-            </div>
-        </div>
-
-    </article>
     
-</body>
+                <div class="mine_rightbox">
+                    <p class="main_text">New password</p>
+                    <input class="main_smalltext" value="">
+                    <p class="main_text">Verify your new password:</p>
+                    <input class="main_smalltext" value="">
 
-<footer>
-    <p class="mine_footer">Designed by tzuyun , enya.</p>
-</footer>
+                    <div class="mine_savebox">
+                        <p class="mine_save">save</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </article>
+    <footer>
+        <p class="mine_footer">Designed by tzuyun , enya.</p>
+    </footer>
+</body>
 </html>
