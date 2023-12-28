@@ -361,7 +361,7 @@ footer{
     visibility: hidden;
 }
 
-@media screen and(min-width:768px){
+@media screen and (max-width:768px){
 
     .logo_box{
         width:auto;
@@ -372,9 +372,18 @@ footer{
         align-items: center;
     }
     
+    .nav{
+        width:200px;
+        height:60px;
+        display:flex;
+        flex-direction: row-end;
+        justify-content: space-evenly;
+        align-items:end;
+    }
+
     .button{
         /* width:200px; */
-        width:30%;
+        width:5%;
         height:60px;
         display:flex;
         align-items: center;
